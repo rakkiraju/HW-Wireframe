@@ -1,0 +1,98 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #777;
+  color: grey;
+}
+
+header,#nav {
+  background: #ebebeb;
+  font-size: 20px;
+  padding: 20px 60px 20px 60px;
+  margin: 10px 140px 10px 140px;
+  margin-bottom: 20px;
+  color: grey;
+  border: grey;
+}
+
+#leftleft {
+  float: left;
+  width: 8.5%;
+  background: #777;
+  height: 400px;
+  /* margin: 0px 0px 0px 140px; */
+}
+
+#left {
+  float: left;
+  width: 41%;
+  background: #ebebeb;
+  height: 400px;
+  /* margin: 0px 0px 0px 140px; */
+}
+
+#article {
+  background: #777;
+  height: 300px;
+  margin: 70px 10px 10px 10px;
+  color: white;
+
+}
+
+#h1h2h3 {
+  background: #ebebeb;
+  height: 75px;
+  margin: 70px 20px 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+#justP {
+  background: #ebebeb;
+  height: 75px;
+  margin: 20px 20px 10px 20px;
+  color: grey;
+}
+
+#middle {
+  float: left;
+  width: 1%;
+  background: #777;
+  height: 400px;
+  /* margin: 10px 140px 10px 140px; */
+}
+
+#right {
+  float: left;
+  width: 41%;
+  background: #ebebeb;
+  height: 400px;
+  /* margin: 0px 140px 0px 0px; */
+}
+
+#rightright {
+  float: left;
+  width: 8.5%;
+  background: #777;
+  height: 400px;
+  /* margin: 0px 140px 0px 0px; */
+}
+
+footer{
+  background: #ebebeb;
+  font-size: 20px;
+  padding: 20px 60px 20px 60px;
+  margin: 440px 140px 10px 140px;
+  color: grey;
+  border: grey;
+}
+
+
+
